@@ -1,0 +1,55 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=0.3in]{geometry}
+\usepackage{amsmath}
+\usepackage{physics}
+\usepackage{graphicx}
+
+%Loading this so that mathbb is defined
+\usepackage{amsfonts}
+
+% This is required for triangleq
+\usepackage{amssymb}
+
+\begin{document}
+
+There are four stages of understanding a paper, from shallow to deep. However, no matter the stage of understanding, the understanding itself must be structured into a coherent summary where each step in the story is clearly motivated by the previous steps. It is also best to use your own languages for the summary rather than copy-paste from the paper (rephrase the paper basically). Otherwise, we will forget about the paper.
+\\
+
+\textbf{Stage 0: only know the high level.}
+
+\begin{enumerate}
+	\item Most papers we read will fall into this category.
+	\item Know what the paper is trying to achieve, how it is different from previous works and key insights from the experimental sections.
+\end{enumerate}
+
+\textbf{Stage 1: understand every sentence in the paper}
+
+\begin{enumerate}
+	\item Cho (NYU) makes a nice point, in which it is important to read every sentence in very relevant papers carefully.
+	\item The strength and weakness of the approaches proposed in the paper might be contained in a few or even a single sentence.
+\end{enumerate}
+
+\textbf{Stage 2: understand every line in the code}
+
+\begin{enumerate}
+	\item Since research in ML is driven to a large extent by experimental science methods, a lot of important knowledge about a proposed method is in the code and not the paper.
+	\item What I like to do is to use a debugger and step through the code execution step-by-step when the command to reproduce the paper is run. 
+	\item Often, an algorithm might seem complicated from the description in the paper, but is actually very simple when presented in code.
+	\item VSCode and Pycharm are good option for this.
+	\item When stepping through the code, pay attention to any implementation details that is either not discussed in the paper or surprising.
+	\item This should be done for extremely relevant papers to the current research direction (e.g. SOTA paper, paper that sheds understanding into SOTA results, highly cited paper, etc.)
+\end{enumerate}
+
+\textbf{Stage 3: know what the authors might not themselves know}
+
+\begin{enumerate}
+	\item Sometimes, it is possible to know more about a proposed algorithm than even the original authors of the algorithm.
+	\item This knowledge, for example, can be obtained by running an ablation study that was not run in the paper.
+	\item Or questioning the assumptions made by the author and running experiments to validate their assumptions.
+	\item Research is by definition producing new knowledge. So when we get to this stage, we are ready to publish.
+\end{enumerate}
+
+
+\end{document}
+ 
