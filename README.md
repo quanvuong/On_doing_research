@@ -4,6 +4,8 @@ Why this repo?
 
 2. Scalable methods to share advices.
 
+Not everything is well thought out =))
+
 [Phone and computer at the desk](Phone_and_computer_at_the_desk.pdf)
 
 [Research_notebook](Research_notebook.pdf)
